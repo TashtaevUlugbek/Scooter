@@ -1,0 +1,43 @@
+.how__list{
+    width: 1110px;
+    height: 341px;
+    margin: 80px 165px  0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.how__list--item{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.how___list--item__h2{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+
+letter-spacing: -1.07143px;
+
+color: #495567;
+
+}
+.how__list--item__p{
+    width: 350px;
+    height: 100px;
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #939CAA;
+
+}
