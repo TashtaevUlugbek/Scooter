@@ -33,6 +33,19 @@
 
 color: #939CAA;
     }
+    a:hover{
+        transition: 1s;
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+
+color: #FCB72B;
+
+    }
 }
 .site-btn{
     width: 180px;
@@ -113,4 +126,30 @@ color: var(--w);
 }
 .hero__info--btn{
     margin-left: 260px;
+}
+
+
+
+/*ABOUT PAGE*/
+.about-header__hero{
+    width: 1480px;
+    height: 200px;
+    background-image: url(/Images/about-hero.png);
+    background-size: 1480px 200px;
+    padding-top: 72px;
+    padding-left: 165px;
+}
+.about-header__hero--h1{
+    
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+/* identical to box height, or 100% */
+
+letter-spacing: -2.5px;
+
+color: #FFFFFF;
+
 }
