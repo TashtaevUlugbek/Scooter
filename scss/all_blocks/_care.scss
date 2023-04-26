@@ -1,0 +1,45 @@
+.care__container{
+    height: 445px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.care__container--text{
+    width: 445px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-evenly;
+}
+.care__container--text__h2{
+    width: 445px;
+    height: 96px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+letter-spacing: -2.14286px;
+
+color: #495567;
+
+
+}
+.care__container--text__p{
+    width: 445px;
+    height: 100px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #939CAA;
+
+
+}

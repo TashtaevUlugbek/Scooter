@@ -1,0 +1,42 @@
+.persons__container--list{
+    margin-left: 165px;
+    width: 1110px;
+    height: 888px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.persons__container--list__item{
+    width: 1110px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.persons__container--list__item--box{
+    width: 650px;
+    height: 61px;
+}
+.persons__container--list__item--box__h5{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+
+letter-spacing: -1.07143px;
+
+color: #495567;
+}
+.persons__container--list__item--box__p{
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+
+color: #495567;
+}

@@ -1,7 +1,5 @@
 .advantages__list{
     width: 1282px;
-   
-     
 }
 .advantages__list--item{
     width: 1282px;
@@ -18,9 +16,13 @@
 .advantages__list--item__text{
     width: 445px;
     height: 313px;
-    margin-top: -150px;
+    margin-top: -200px;
    
 }
+.advantages__list--item__text--btn{
+    margin-top: 40px;
+}
+
 .advantages__list--item__text--h3{
     width: 445px;
     height: 96px;
@@ -39,6 +41,7 @@ color: #495567;
 .advantages__list--item__text--p{
     width: 445px;
     height: 100px;
+    margin-top: 24px;
 font-family: 'Lexend Deca';
 font-style: normal;
 font-weight: 400;
@@ -59,4 +62,70 @@ color: #939CAA;
     img{
         margin-left:  -250px;
     }
+}
+@media only screen and (max-width:396px){
+    .advantages__list{
+        width: 311px;
+        img{
+            width: 320px;
+            height: 225px;
+            margin-right: 70px;
+                }
+    }
+    .advantages__list--item{
+        width: 311px;
+        height: 678px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .advantages__list--item__text{
+        width: 311px;
+        height: 311px;
+        margin-left: 42px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .advantages__list--item__text--h3{
+        width: 311px;
+        height: 64px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: -1.42857px;
+
+color: #495567;
+
+    }
+    .advantages__list--item__text--p{
+        width: 311px;
+height: 150px;
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #939CAA;
+
+    }
+    .advantages__list--item:nth-child(even){
+        flex-direction: column-reverse;
+        img{
+            margin: 0;
+        }
+    }
+    
 }

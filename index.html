@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Home</title>
 </head>
@@ -11,22 +12,44 @@
     <header class="header">
         <div class="container header-container">
             <nav class="header-container__navbar">
+                <!--
+                <div class="header-container__navbar--menu">
+                    <div class="header-container__navbar--menu__links">
+                        <a href="./about.html">About</a>
+                        <a href="#">Locations</a>
+                        <a href="./careers.html">Careers</a>
+                    </div>
+                    <button class="site-btn">
+                        Get Scootin
+                    </button>
+                </div>
+            -->
+                <div class="header-container__navbar--burger">
+                    <img src="./Images/burger.svg" >
+                </div>
+               
+                <a href="./index.html">
+                    <div class="logo">
+
+                    </div>
+                </a>
                 <div class="header-container__navbar--link">
-                    <img src="./Images/scoot.svg" width="107.82" height="28.56">
                     <a href="./about.html">About</a>
                     <a href="#">Locations</a>
-                    <a href="#">Careers</a>
+                    <a href="./careers.html">Careers</a>
                 </div>
                 <button class="site-btn header-container__navbar--btn">
                     Get Scootin
                 </button>
+               
+                     
             </nav>
             <div class="hero">
-                <h1 class="hero--h1">
+                <h1 class="hero__h1">
                     Scooter sharing  made simple
                 </h1>
                 <div class="hero__info">
-                    <img src="./Images/straight_line.svg" width="202.5" height="15">
+                    <img src="./Images/straight_line.svg" width="202.5" height="15" class="hero__info--img1">
                     <div class="hero__info">
                         <p class="hero__info--p">
                             Scoot takes the hassle out of urban mobility. Our bikes   are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a  tap, and you’re away!
@@ -38,6 +61,7 @@
                 <button class="hero__info--btn site-btn">
                     Get Scootin
                 </button>
+               
             </div>
         </div>
     </header>
@@ -86,7 +110,7 @@
                             <p class="advantages__list--item__text--p">
                                 The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.
                             </p>
-                            <button class="site-btn advantages__list--item__text">
+                            <button class="site-btn advantages__list--item__text--btn">
                                 Learn More
                             </button>
                         </div>
@@ -100,7 +124,7 @@
                             <p class="advantages__list--item__text--p">
                                 The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.
                             </p>
-                            <button class="site-btn advantages__list--item__text">
+                            <button class="site-btn advantages__list--item__text--btn">
                                 Learn More
                             </button>
                         </div>
@@ -114,7 +138,7 @@
                             <p class="advantages__list--item__text--p">
                                 The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.
                             </p>
-                            <button class="site-btn advantages__list--item__text">
+                            <button class="site-btn advantages__list--item__text--btn">
                                 Learn More
                             </button>
                         </div>
@@ -150,12 +174,15 @@
                 </div>
             </div>
             <nav class="footer__nav">
+               
                 <div class="footer__nav--link">
-                    <img src="./Images/scoot2.svg" width="107" height="28">
+                    <a href="./index.html">
+                        <img src="./Images/scoot2.svg" width="107" height="28">
+                    </a>
                     <div class="footer__nav--link__link">
                         <a href="./about.html">About</a>
-                    <a href="#">Locations</a>
-                    <a href="#">Careers</a>
+                        <a href="#">Locations</a>
+                        <a href="./careers.html">Careers</a>
                     </div>
                 </div>
                 <div class="footer__nav--media">
