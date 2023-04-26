@@ -142,6 +142,9 @@
 
 
 @media screen and (max-width:396px){
+    .header-container{
+        padding: 0;
+    }
     
     .header-container__navbar{
         width: 375px;
