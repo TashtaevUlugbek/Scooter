@@ -40,3 +40,58 @@ line-height: 25px;
 
 color: #495567;
 }
+@media only screen and (max-width:396px){
+    .persons__container--list{
+        width: 311px;
+        height: 1220px;
+        margin-left: 32px;
+        margin-top: 145px;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .persons__container--list__item{
+        width: 311px;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .persons__container--list__item--box{
+        width: 247px;
+        height: 53px;
+
+    }
+    .persons__container--list__item--box__h5{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: -0.803571px;
+
+color: #495567;
+
+    }
+    .persons__container--list__item--box__p{
+        
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #495567;
+
+    }
+}

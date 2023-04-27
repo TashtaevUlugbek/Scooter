@@ -106,3 +106,126 @@ letter-spacing: -1.07143px;
 color: #495567;
 
 }
+@media screen and (max-width:396px) {
+    .FAQs__container{
+        padding-left: 32px;
+    }
+    .FAQs__container--h4{
+        width: 311px;
+        height: 32px;
+        margin: 0;
+
+        text-align:left;
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: -1.42857px;
+
+color: #495567;
+
+    }    
+    .FAQs__container--list__item{
+        width: 311px;
+        height: 627px;
+        margin-top: 48px;
+        margin-left: 20px;
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .FAQs__container--list__item--h5{
+        margin-left: 150px;
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: -0.803571px;
+
+color: #495567;
+
+    }
+    .FAQs__container--list__item--list{
+        width: 311px;
+        height: 567px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+   .FAQs__container--list__item--list__big-item{
+    width: 311px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .FAQs__container--list__item--list__big-item--box{
+    width: 251px;
+    height: 48px;
+    display: flex;
+    align-items: center;justify-content: space-between;
+
+   }
+   .FAQs__container--list__item--list__big-item--box__p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    
+    letter-spacing: -0.803571px;
+    
+    color: #495567;
+   }
+   .FAQs__container--list__item--list__big-item--p{
+    width: 271px;
+    height: 175px;
+    
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #495567;
+
+   }
+   .FAQs__container--list__item--list__small-item{
+    width: 311px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .FAQs__container--list__item--list__small-item--p{
+        
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: -0.803571px;
+
+color: #495567;
+
+   }
+}

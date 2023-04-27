@@ -327,3 +327,31 @@ color: var(--w);
     
 
 }
+/* abou*/
+@media screen and (max-width:396px){
+    .about-header__hero{
+        width: 375px;
+        height: 160px;
+        background-image: url(/Images/about-respons.png);
+        background-size: 375px 160px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-header__hero--h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: -1.78571px;
+
+color: var(--w);
+
+    }
+}
