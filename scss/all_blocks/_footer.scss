@@ -37,7 +37,17 @@ color: #FFFFFF;
     background-color: var(--w);
 }
 .footer__resourses--resourse__text--p{
-   
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    letter-spacing: -0.446429px;
+    
+    color: #495567;
+    
 
     span{
         font-family: 'Space Mono';
