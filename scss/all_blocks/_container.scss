@@ -3,10 +3,18 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+.kNIGA{
+
+}
 @media only screen and (max-width:396px){
     .container{
         width: 375px;
         margin: 0 auto;
         padding: 0px;
+    }
+    .kNIGA{
+        display: flex;
+        flex-direction: column;
+        
     }
 }
